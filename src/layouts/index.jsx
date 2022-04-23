@@ -6,10 +6,11 @@ export default function Layout() {
   return (
     <Routes>
       <Route
-        path={"/test"}
-        key={"test"}
-        element={<InformationPages />}
+        path={"/login"}
+        key={"login"}
+        element={<Login />}
       />
     </Routes>
+    
   );
 }
